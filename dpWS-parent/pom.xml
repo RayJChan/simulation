@@ -1,0 +1,16 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.dpWS</groupId>
+  <artifactId>dpWS-parent</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>dpWS-parent</name>
+  <description>东鹏我晒项目</description>
+  <modules>
+  	<module>dpWs-common</module>
+  	<module>dpWS-api</module>
+  	<module>dpWs-service</module>
+  	<module>dpWs-dao</module>
+  	<module>dpWs-web</module>
+  </modules>
+</project>
