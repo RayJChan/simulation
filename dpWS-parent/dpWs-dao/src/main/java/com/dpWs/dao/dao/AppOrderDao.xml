@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.dpWs.dao.dao.AppOrderDao">
+	<resultMap type="com.dpmall.db.bean.OrderEntity" id="AppOrderResultMap">
+		<id property="id" column="PK"/>
+	
+	</resultMap>
+
+
+	<select id="getIdTest" resultMap="AppOrderResultMap">
+		SELECT
+			pk
+		FROM
+			APPUSER
+		WHERE
+			1 = 1
+		AND pk = '8796224343649'
+	</select>
+
+</mapper>
